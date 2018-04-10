@@ -1,11 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9c39452-0b09-4fc3-b200-013d92dabcac" name="Default" comment="" />
+    <list default="true" id="c9c39452-0b09-4fc3-b200-013d92dabcac" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/client01-eureka/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client01-eureka/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client01-eureka/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client01-eureka/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client01-eureka/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client01-eureka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client01-eureka/src/main/java/com/stargis/client01eureka/Client01EurekaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client01-eureka/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client01-eureka/src/test/java/com/stargis/client01eureka/Client01EurekaApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client02-eureka/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client02-eureka/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client02-eureka/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client02-eureka/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client02-eureka/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client02-eureka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client02-eureka/src/main/java/com/stargis/client02eureka/Client02EurekaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client02-eureka/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client02-eureka/src/test/java/com/stargis/client02eureka/Client02EurekaApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peers-eureka-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peers-eureka-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peers-eureka-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peers-eureka-server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peers-eureka-server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peers-eureka-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peers-eureka-server/src/main/java/com/stargis/peerseurekaserver/PeersEurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peers-eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peers-eureka-server/src/test/java/com/stargis/peerseurekaserver/PeersEurekaServerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
     <ignored path="$PROJECT_DIR$/eureka-client/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-server-peer1/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-server-peers/target/" />
+    <ignored path="$PROJECT_DIR$/peers-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/client01-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/client02-eureka/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,87 +52,130 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FavoritesManager">
-    <favorites_list name="SpringCloudEureka01" />
+    <favorites_list name="SpringCloudEureka01">
+      <favorite_root url="file://$PROJECT_DIR$/eureka-server-peers" module="SpringCloud-Eureka01" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+        <favorite_root url="file://$PROJECT_DIR$/eureka-server-peers/src" module="SpringCloud-Eureka01" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/eureka-server-peers/src/main" module="SpringCloud-Eureka01" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/eureka-server-peers/src/main/java" module="SpringCloud-Eureka01" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/eureka-server-peers/src/main/java/com" module="SpringCloud-Eureka01" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/eureka-server-peers/src/main/java/com/stargis" module="SpringCloud-Eureka01" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/eureka-server-peers/src/main/java/com/stargis/eurekaserver" module="SpringCloud-Eureka01" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="file://$PROJECT_DIR$/eureka-server-peers/src/main/java/com/stargis/eurekaserver/EurekaServerApplication.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                </favorite_root>
+              </favorite_root>
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/eureka-server-peers/src/main/resources" module="SpringCloud-Eureka01" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/eureka-server-peers/src/main/resources/application.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/eureka-server-peers/src/test" module="SpringCloud-Eureka01" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/eureka-server-peers/src/test/java" module="SpringCloud-Eureka01" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/eureka-server-peers/src/test/java/com" module="SpringCloud-Eureka01" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/eureka-server-peers/src/test/java/com/stargis" module="SpringCloud-Eureka01" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/eureka-server-peers/src/test/java/com/stargis/eurekaserver" module="SpringCloud-Eureka01" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="file://$PROJECT_DIR$/eureka-server-peers/src/test/java/com/stargis/eurekaserver/EurekaServerApplicationTests.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                </favorite_root>
+              </favorite_root>
+            </favorite_root>
+          </favorite_root>
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/eureka-server-peers/.mvn" module="SpringCloud-Eureka01" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/eureka-server-peers/.mvn/wrapper" module="SpringCloud-Eureka01" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/eureka-server-peers/.mvn/wrapper/maven-wrapper.jar" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/eureka-server-peers/.mvn/wrapper/maven-wrapper.properties" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/eureka-server-peers/mvnw" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/eureka-server-peers/target" module="SpringCloud-Eureka01" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/eureka-server-peers/target/classes" module="SpringCloud-Eureka01" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/eureka-server-peers/target/classes/com" module="SpringCloud-Eureka01" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/eureka-server-peers/target/classes/com/stargis" module="SpringCloud-Eureka01" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/eureka-server-peers/target/classes/com/stargis/eurekaserver" module="SpringCloud-Eureka01" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/eureka-server-peers/target/classes/com/stargis/eurekaserver/EurekaServerApplication.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+              </favorite_root>
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/eureka-server-peers/target/classes/application.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/eureka-server-peers/target/test-classes" module="SpringCloud-Eureka01" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/eureka-server-peers/target/test-classes/com" module="SpringCloud-Eureka01" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/eureka-server-peers/target/test-classes/com/stargis" module="SpringCloud-Eureka01" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/eureka-server-peers/target/test-classes/com/stargis/eurekaserver" module="SpringCloud-Eureka01" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/eureka-server-peers/target/test-classes/com/stargis/eurekaserver/EurekaServerApplicationTests.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+              </favorite_root>
+            </favorite_root>
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/eureka-server-peers/target/generated-sources" module="SpringCloud-Eureka01" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/eureka-server-peers/target/generated-sources/annotations" module="SpringCloud-Eureka01" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/eureka-server-peers/target/generated-test-sources" module="SpringCloud-Eureka01" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/eureka-server-peers/target/generated-test-sources/test-annotations" module="SpringCloud-Eureka01" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+          </favorite_root>
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/eureka-server-peers/pom.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/eureka-server-peers/mvnw.cmd" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/eureka-server-peers/.gitignore" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      </favorite_root>
+    </favorites_list>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/peers-eureka-server/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="48">
+              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
+      <file leaf-file-name="PeersEurekaServerApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/peers-eureka-server/src/main/java/com/stargis/peerseurekaserver/PeersEurekaServerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EurekaServerApplicationTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-server/src/test/java/com/stargis/eurekaserver/EurekaServerApplicationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EurekaServerApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/stargis/eurekaserver/EurekaServerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#447#448#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
+      <file leaf-file-name="EurekaServerApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/stargis/eurekaserver/EurekaServerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="30" column="61" lean-forward="true" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-client/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="30" column="66" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EurekaClientApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-client/src/main/java/com/stargis/eurekaclient/EurekaClientApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-client/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="288">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>org.springframework.cloud</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -102,10 +184,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/eureka-server/src/main/java/com/stargis/eurekaserver/EurekaServerApplication.java" />
         <option value="$PROJECT_DIR$/eureka-client/src/main/java/com/stargis/eurekaclient/EurekaClientApplication.java" />
-        <option value="$PROJECT_DIR$/eureka-client/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-client/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/eureka-server-peer1/src/main/java/com/stargis/eurekaserverpeer1/EurekaServerPeer1Application.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server-peer1/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server-peers/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server-peers/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/peers-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/peers-eureka-server/src/main/java/com/stargis/peerseurekaserver/PeersEurekaServerApplication.java" />
+        <option value="$PROJECT_DIR$/peers-eureka-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/peers-eureka-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/eureka-server/src/main/java/com/stargis/eurekaserver/EurekaServerApplication.java" />
       </list>
     </option>
   </component>
@@ -121,6 +212,30 @@
         <option name="userSettingsFile" value="C:\Program Files\apache-maven-3.3.9\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="peers-eureka-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="peers-eureka-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-Dmaven.multiModuleProjectDirectory=$M2_HOME" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="68" />
@@ -144,7 +259,54 @@
             <path>
               <item name="SpringCloudEureka01" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloudEureka01" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="client01-eureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudEureka01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudEureka01" type="462c0819:PsiDirectoryNode" />
+              <item name="client01-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudEureka01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudEureka01" type="462c0819:PsiDirectoryNode" />
+              <item name="client01-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudEureka01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudEureka01" type="462c0819:PsiDirectoryNode" />
+              <item name="client01-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudEureka01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudEureka01" type="462c0819:PsiDirectoryNode" />
+              <item name="client02-eureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudEureka01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudEureka01" type="462c0819:PsiDirectoryNode" />
+              <item name="client02-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudEureka01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudEureka01" type="462c0819:PsiDirectoryNode" />
+              <item name="client02-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudEureka01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudEureka01" type="462c0819:PsiDirectoryNode" />
+              <item name="client02-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -155,6 +317,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelOrder2" value="2" />
@@ -164,7 +327,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../spring-cloud-docker-microservice-book-code-master/microservice-discovery-eureka-ha" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -175,10 +338,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaJavaWorkspace\SpringCloudLearning\SpringCloudEureka01\client02-eureka\src\main\resources" />
+      <recent name="E:\IdeaJavaWorkspace\SpringCloudLearning\SpringCloudEureka01\client01-eureka\src\main\resources" />
+      <recent name="E:\IdeaJavaWorkspace\SpringCloudLearning\SpringCloudEureka01" />
       <recent name="E:\IdeaJavaWorkspace\SpringCloudEureka01\eureka-server" />
     </key>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -189,8 +360,9 @@
         </RuleState>
       </list>
     </option>
+    <option name="contentProportion" value="0.21245901" />
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaClientApplication">
+  <component name="RunManager" selected="Spring Boot.EurekaServerPeer2">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -213,6 +385,14 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="Client01EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="client01-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.stargis.client01eureka.Client01EurekaApplication" />
+    </configuration>
+    <configuration name="Client02EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="client02-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.stargis.client02eureka.Client02EurekaApplication" />
+    </configuration>
     <configuration name="EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.stargis.eurekaclient.EurekaClientApplication" />
@@ -220,6 +400,18 @@
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.stargis.eurekaserver.EurekaServerApplication" />
+    </configuration>
+    <configuration name="EurekaServerPeer1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="peers-eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.stargis.peerseurekaserver.PeersEurekaServerApplication" />
+      <option name="ACTIVE_PROFILES" value="peer1" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="EurekaServerPeer2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="peers-eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.stargis.peerseurekaserver.PeersEurekaServerApplication" />
+      <option name="ACTIVE_PROFILES" value="peer2" />
+      <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -260,7 +452,11 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.EurekaServerPeer1" />
+      <item itemvalue="Spring Boot.EurekaServerPeer2" />
       <item itemvalue="Spring Boot.EurekaClientApplication" />
+      <item itemvalue="Spring Boot.Client01EurekaApplication" />
+      <item itemvalue="Spring Boot.Client02EurekaApplication" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -275,38 +471,64 @@
       <updated>1522634034318</updated>
       <workItem from="1522634038783" duration="9399000" />
       <workItem from="1522721109757" duration="2301000" />
-      <workItem from="1522802937247" duration="776000" />
+      <workItem from="1522802937247" duration="1622000" />
+      <workItem from="1523182074269" duration="154000" />
+      <workItem from="1523276038115" duration="1151000" />
+      <workItem from="1523279327890" duration="702000" />
+      <workItem from="1523340081511" duration="5045000" />
+      <workItem from="1523348036171" duration="10385000" />
+      <workItem from="1523360227486" duration="1013000" />
+      <workItem from="1523361570472" duration="396000" />
     </task>
+    <task id="LOCAL-00001" summary="idea">
+      <created>1522808179593</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1522808179593</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12476000" />
+    <option name="totallyTimeSpent" value="32168000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="bottom" id="Messages" order="6" weight="0.32843792" />
+      <window_info anchor="bottom" id="TODO" order="13" weight="0.328877" />
+      <window_info active="true" anchor="bottom" id="Messages" order="6" sideWeight="0.4993573" visible="true" weight="0.3275401" />
       <window_info anchor="right" id="Palette&#9;" order="0" />
-      <window_info anchor="bottom" id="Java Enterprise" order="1" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="4" sideWeight="0.50064266" side_tool="true" visible="true" weight="0.39118826" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Java Enterprise" order="1" weight="0.328877" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5025707" side_tool="true" weight="0.42914438" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.4974293" weight="0.42914438" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32969153" />
       <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" x="0" y="308" width="1600" height="254" id="Run" order="9" sideWeight="0.4993573" visible="true" weight="0.39118826" />
-      <window_info anchor="bottom" id="Spring" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" x="0" y="308" width="1600" height="254" id="Run" order="9" sideWeight="0.4993573" weight="0.39171124" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.328877" />
+      <window_info anchor="bottom" id="Spring" order="2" weight="0.328877" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.328877" />
       <window_info id="Designer" order="4" />
-      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.49933246" visible="true" weight="0.19151671" />
-      <window_info anchor="right" id="Bean Validation" order="2" />
+      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.49465242" visible="true" weight="0.20179948" />
+      <window_info anchor="right" id="Bean Validation" order="2" weight="0.32969153" />
       <window_info id="Web" order="0" sideWeight="0.5006676" side_tool="true" weight="0.18894601" />
-      <window_info anchor="right" id="Database" order="1" />
-      <window_info id="Structure" order="5" sideWeight="0.5006676" side_tool="true" weight="0.18894601" />
+      <window_info anchor="right" id="Database" order="1" weight="0.32969153" />
+      <window_info id="Structure" order="5" sideWeight="0.5053476" side_tool="true" weight="0.1992288" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info id="UI Designer" order="1" />
-      <window_info id="Favorites" order="2" sideWeight="0.5006676" side_tool="true" weight="0.18894601" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info id="Favorites" order="2" sideWeight="0.50351286" side_tool="true" weight="0.1966581" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
       <window_info anchor="right" id="Commander" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.32977304" />
@@ -314,6 +536,37 @@
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info id="Web" order="0" sideWeight="0.5006676" side_tool="true" weight="0.18894601" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.4964871" visible="true" weight="0.1992288" />
+      <window_info anchor="right" id="Database" order="1" weight="0.32969153" />
+      <window_info anchor="bottom" x="0" y="308" width="1600" height="254" id="Run" order="9" sideWeight="0.4993573" weight="0.39171124" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.50351286" side_tool="true" weight="0.1966581" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49807197" visible="true" weight="0.42914438" />
+      <window_info id="Structure" order="5" sideWeight="0.50351286" side_tool="true" weight="0.1966581" />
+      <window_info anchor="right" id="Commander" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" order="2" />
+      <window_info anchor="bottom" id="TODO" order="13" weight="0.328877" />
+      <window_info anchor="bottom" id="Messages" order="6" sideWeight="0.4993573" weight="0.3275401" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="1" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.32977304" />
+      <window_info anchor="right" id="Bean Validation" order="2" weight="0.32969153" />
+      <window_info anchor="right" id="Palette&#9;" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50192803" side_tool="true" weight="0.27406418" />
+      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.328877" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Java Enterprise" order="1" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32969153" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -321,7 +574,50 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="idea" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/stargis/eurekaserver/EurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="30" column="66" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/java/com/stargis/eurekaclient/EurekaClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -347,9 +643,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="30" column="66" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/java/com/stargis/eurekaclient/EurekaClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/test/java/com/stargis/eurekaserver/EurekaServerApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/stargis/eurekaserver/EurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -406,9 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -440,31 +786,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/src/test/java/com/stargis/eurekaserver/EurekaServerApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-server/1.3.0.RC1/spring-cloud-netflix-eureka-server-1.3.0.RC1.jar!/org/springframework/cloud/netflix/eureka/server/EnableEurekaServer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -473,13 +798,17 @@
         <state relative-caret-position="-144" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/stargis/eurekaserver/EurekaServerApplication.java">
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/test/java/com/stargis/eurekaserver/EurekaServerApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="144">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="30" column="66" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="66" />
         </state>
       </provider>
     </entry>
@@ -492,22 +821,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-client/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        <state relative-caret-position="240">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client/pom.xml">
+    <entry file="file://$PROJECT_DIR$/eureka-server-peer1/src/main/java/com/stargis/eurekaserverpeer1/EurekaServerPeer1Application.java" />
+    <entry file="file://$PROJECT_DIR$/eureka-server-peer1/eureka-server-peer1.iml" />
+    <entry file="file://$PROJECT_DIR$/eureka-server-peer1/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="30" column="66" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="66" />
+        <state relative-caret-position="288">
+          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-peer1/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/eureka-server-peer1/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/eureka-server-peers/src/main/java/com/stargis/eurekaserverpeers/EurekaServerPeersApplication.java" />
+    <entry file="file://$PROJECT_DIR$/eureka-server-peers/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/eureka-server-peers/src/main/resources/application.yml" />
     <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="30" column="61" lean-forward="true" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
+        <state relative-caret-position="768">
+          <caret line="38" column="21" selection-start-line="33" selection-start-column="8" selection-end-line="38" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/peers-eureka-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/peers-eureka-server/target/classes/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/peers-eureka-server/src/main/java/com/stargis/peerseurekaserver/PeersEurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/peers-eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/stargis/eurekaserver/EurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>

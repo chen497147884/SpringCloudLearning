@@ -6,11 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="client01-eureka" />
+        <module name="client02-eureka" />
         <module name="eureka-client" />
         <module name="eureka-server" />
-        <module name="SpringCloud-Eureka01" />
+        <module name="peers-eureka-server" />
         <module name="SpringCloudEureka01" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka-server-peer1" target="1.8" />
+      <module name="eureka-server-peers" target="1.8" />
+      <module name="eurekaserverpeer1" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
