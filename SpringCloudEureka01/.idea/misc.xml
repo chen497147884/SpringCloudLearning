@@ -11,6 +11,11 @@
         <option value="$PROJECT_DIR$/peers-eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/client01-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/client02-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server-authenticating/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-client-authenticating/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server-authenticating-m9/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-client-user-my-metadata/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-client-movie-understanding-meadata/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
