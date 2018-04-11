@@ -1,5 +1,31 @@
 server:
-  port: 8761
+  port: 8000
+spring:
+  application:
+    name: eureka-client-user-my-metadata
+  jpa:
+    generate-ddl: false
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://127.0.0.1:3306/druid?useUnicode=true&characterEncoding=UTF-8
+#    platform: mysql
+#    schema: classpath:schema.sql
+#    data: classpath:data.sql
+#    username: root
+#    password: root
+  datasource:                           # datasource
+    platform: h2                        # DbType
+    schema: classpath:schema.sql        # CreateTableSql
+    data: classpath:data.sql            # TableDataSql
+logging:                                # SQl Log
+  level:
+    root: INFO
+    org.hibernate: INFO
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
 eureka:
   instance:
     hostname: localhost
@@ -8,4 +34,4 @@ eureka:
       my-metadata : ForeverChan
   client:
     service-url:
-      defaultZone: http://loclhost:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/
