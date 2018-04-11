@@ -22,8 +22,10 @@ public class MyHealthIndicator implements HealthIndicator {
     @Override
     public Health health() {
         if(MyRestController.isDB){
+            System.out.println(MyRestController.isDB);
             return new Health.Builder(Status.UP).build();
         } else{
+            System.out.println(MyRestController.isDB);
             return new Health.Builder(Status.DOWN).build();
         }
     }

@@ -3,6 +3,9 @@ package com.stargis.Controller;/**
  * 2018-04-11 21:25
  */
 
+import com.netflix.appinfo.InstanceInfo;
+import com.stargis.healthcheck.MyHealthCheckHandler;
+import org.springframework.boot.actuate.health.Status;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -21,8 +24,15 @@ public class MyRestController {
     public static boolean isDB = true;
 
     @GetMapping(value = "/setIsDB/{isDB}", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
-    public void setIsDB(@PathVariable boolean isDB) {
+    public boolean setIsDB(@PathVariable boolean isDB) {
         this.isDB = isDB;
+//        MyHealthCheckHandler myHealthCheckHandler = new MyHealthCheckHandler();
+//        if (isDB) {
+//            myHealthCheckHandler.getStatus(InstanceInfo.InstanceStatus.UP);
+//        }else{
+//            myHealthCheckHandler.getStatus(InstanceInfo.InstanceStatus.DOWN);
+//        }
+        return isDB;
     }
 
 }

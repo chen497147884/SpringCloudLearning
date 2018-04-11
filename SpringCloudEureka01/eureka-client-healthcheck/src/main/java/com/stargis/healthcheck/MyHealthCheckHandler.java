@@ -7,6 +7,7 @@ import com.netflix.appinfo.HealthCheckHandler;
 import com.netflix.appinfo.InstanceInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.actuate.health.Status;
+import org.springframework.stereotype.Component;
 
 /**
  * @ClassName MyHealthCheckHandler
@@ -15,6 +16,7 @@ import org.springframework.boot.actuate.health.Status;
  * @Date 2018-04-11 21:21
  * @Version 1.0
  **/
+@Component
 public class MyHealthCheckHandler implements HealthCheckHandler {
 
     @Autowired
