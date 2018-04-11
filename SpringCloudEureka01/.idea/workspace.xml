@@ -1,38 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9c39452-0b09-4fc3-b200-013d92dabcac" name="Default" comment="2018年4月11日09:14:50">
-      <change afterPath="$PROJECT_DIR$/eureka-client-authenticating/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-authenticating/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-authenticating/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-authenticating/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-authenticating/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-authenticating/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-authenticating/src/main/java/com/stargis/eurekaclientauthenticating/EurekaClientAuthenticatingApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-authenticating/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server-authenticating-m9/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server-authenticating-m9/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server-authenticating-m9/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server-authenticating-m9/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server-authenticating-m9/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server-authenticating-m9/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server-authenticating-m9/src/main/java/com/stargis/eurekaserverauthenticatingm9/EurekaServerAuthenticatingM9Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server-authenticating-m9/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server-authenticating-m9/src/test/java/com/stargis/eurekaserverauthenticatingm9/EurekaServerAuthenticatingM9ApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c9c39452-0b09-4fc3-b200-013d92dabcac" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client01-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client01-eureka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client01-eureka/src/main/java/com/stargis/client01eureka/Client01EurekaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/client01-eureka/src/main/java/com/stargis/client01eureka/Client01EurekaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client01-eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/client01-eureka/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client02-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client02-eureka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client02-eureka/src/main/java/com/stargis/client02eureka/Client02EurekaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/client02-eureka/src/main/java/com/stargis/client02eureka/Client02EurekaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client02-eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/client02-eureka/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server-authenticating/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server-authenticating/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server-authenticating/src/main/java/com/stargis/eurekaserverauthenticating/EurekaServerAuthenticatingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server-authenticating/src/main/java/com/stargis/eurekaserverauthenticating/EurekaServerAuthenticatingApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server-authenticating/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server-authenticating/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server-authenticating/src/test/java/com/stargis/eurekaserverauthenticating/EurekaServerAuthenticatingApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client-authenticating/src/test/java/com/stargis/eurekaclientauthenticating/EurekaClientAuthenticatingApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -169,11 +139,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/eureka-server-authenticating-m9/pom.xml">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/peers-eureka-server/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+            <state relative-caret-position="120">
+              <caret line="5" column="10" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -305,6 +275,32 @@
             <path>
               <item name="SpringCloudEureka01" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloudEureka01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudEureka01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudEureka01" type="462c0819:PsiDirectoryNode" />
+              <item name="peers-eureka-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudEureka01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudEureka01" type="462c0819:PsiDirectoryNode" />
+              <item name="peers-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudEureka01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudEureka01" type="462c0819:PsiDirectoryNode" />
+              <item name="peers-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudEureka01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudEureka01" type="462c0819:PsiDirectoryNode" />
+              <item name="peers-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -494,7 +490,7 @@
       <workItem from="1523361570472" duration="7251000" />
       <workItem from="1523369428570" duration="1868000" />
       <workItem from="1523408216985" duration="3053000" />
-      <workItem from="1523411856498" duration="11939000" />
+      <workItem from="1523411856498" duration="12197000" />
     </task>
     <task id="LOCAL-00001" summary="idea">
       <created>1522808179593</created>
@@ -510,11 +506,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523363260165</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2018年4月11日14:55:04">
+      <created>1523429718513</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1523429718513</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55883000" />
+    <option name="totallyTimeSpent" value="56141000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -601,7 +604,8 @@
     <MESSAGE value="idea" />
     <MESSAGE value="2018年4月10日20:27:31" />
     <MESSAGE value="2018年4月11日09:14:50" />
-    <option name="LAST_COMMIT_MESSAGE" value="2018年4月11日09:14:50" />
+    <MESSAGE value="2018年4月11日14:55:04" />
+    <option name="LAST_COMMIT_MESSAGE" value="2018年4月11日14:55:04" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -754,18 +758,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/peers-eureka-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-server-authenticating/src/test/java/com/stargis/eurekaserverauthenticating/EurekaServerAuthenticatingApplicationTests.java" />
     <entry file="file://$PROJECT_DIR$/eureka-server-authenticating/src/main/java/com/stargis/eurekaserverauthenticating/EurekaServerAuthenticatingApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -896,6 +896,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-authenticating-m9/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-server-authenticating/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -903,10 +910,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server-authenticating-m9/pom.xml">
+    <entry file="file://$PROJECT_DIR$/peers-eureka-server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+        <state relative-caret-position="120">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="10" />
         </state>
       </provider>
     </entry>
