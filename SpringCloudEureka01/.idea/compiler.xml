@@ -10,6 +10,7 @@
         <module name="client02-eureka" />
         <module name="eureka-client" />
         <module name="eureka-client-authenticating" />
+        <module name="eureka-client-healthcheck" />
         <module name="eureka-client-movie-understanding-meadata" />
         <module name="eureka-client-user-my-metadata" />
         <module name="eureka-server" />
@@ -21,6 +22,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eureka-client-my-metadata01" target="1.8" />
+      <module name="eureka-server-healthcheck" target="1.8" />
       <module name="eureka-server-peer1" target="1.8" />
       <module name="eureka-server-peers" target="1.8" />
       <module name="eurekaserverpeer1" target="1.5" />

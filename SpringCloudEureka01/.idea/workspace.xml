@@ -2,23 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9c39452-0b09-4fc3-b200-013d92dabcac" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-movie-understanding-meadata/src/main/java/com/stargis/controller/MovieController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-movie-understanding-meadata/src/main/java/com/stargis/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-user-my-metadata/src/main/java/com/stargis/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-user-my-metadata/src/main/java/com/stargis/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-user-my-metadata/src/main/java/com/stargis/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-user-my-metadata/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client-user-my-metadata/src/main/resources/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-rest-api-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client-movie-understanding-meadata/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client-movie-understanding-meadata/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client-movie-understanding-meadata/src/main/java/com/stargis/eurekaclientmovieunderstandingmeadata/EurekaClientMovieUnderstandingMeadataApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client-movie-understanding-meadata/src/main/java/com/stargis/EurekaClientMovieUnderstandingMeadataApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client-movie-understanding-meadata/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client-movie-understanding-meadata/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client-user-my-metadata/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client-user-my-metadata/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client-user-my-metadata/src/main/java/com/stargis/eurekaclientusermymetadata/EurekaClientUserMyMetadataApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client-user-my-metadata/src/main/java/com/stargis/EurekaClientUserMyMetadataApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client-user-my-metadata/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client-user-my-metadata/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client-user-my-metadata/src/test/java/com/stargis/eurekaclientusermymetadata/EurekaClientUserMyMetadataApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client-user-my-metadata/src/test/java/com/stargis/eurekaclientusermymetadata/EurekaClientUserMyMetadataApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client-healthcheck/src/main/java/com/stargis/Controller/MyRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client-healthcheck/src/main/java/com/stargis/Controller/MyRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client-healthcheck/src/main/java/com/stargis/healthcheck/MyHealthCheckHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client-healthcheck/src/main/java/com/stargis/healthcheck/MyHealthCheckHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client-healthcheck/src/main/java/com/stargis/healthcheck/MyHealthIndicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client-healthcheck/src/main/java/com/stargis/healthcheck/MyHealthIndicator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,6 +26,8 @@
     <ignored path="$PROJECT_DIR$/eureka-client-my-metadata/target/" />
     <ignored path="$PROJECT_DIR$/eureka-client-user-my-metadata/target/" />
     <ignored path="$PROJECT_DIR$/eureka-client-movie-understanding-meadata/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-server-healthcheck/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-client-healthcheck/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -138,19 +131,19 @@
         </entry>
       </file>
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-client-user-my-metadata/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="33" column="23" lean-forward="true" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+            <state relative-caret-position="264">
+              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-client-user-my-metadata/src/main/java/com/stargis/controller/UserController.java">
+      <file leaf-file-name="MovieController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-client-movie-understanding-meadata/src/main/java/com/stargis/controller/MovieController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+            <state relative-caret-position="308">
+              <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,29 +151,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EurekaClientUserMyMetadataApplicationTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-client-user-my-metadata/src/test/java/com/stargis/eurekaclientusermymetadata/EurekaClientUserMyMetadataApplicationTests.java">
+      <file leaf-file-name="EurekaClientHealthcheckApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-client-healthcheck/src/main/java/com/stargis/EurekaClientHealthcheckApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+            <state relative-caret-position="192">
+              <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-client-movie-understanding-meadata/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/eureka-client-healthcheck/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+            <state relative-caret-position="312">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MovieController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/eureka-client-movie-understanding-meadata/src/main/java/com/stargis/controller/MovieController.java">
+      <file leaf-file-name="MyHealthCheckHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-client-healthcheck/src/main/java/com/stargis/healthcheck/MyHealthCheckHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="42" column="80" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="80" />
+            <state relative-caret-position="-83">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -188,15 +181,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EurekaClientMovieUnderstandingMeadataApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-client-movie-understanding-meadata/src/main/java/com/stargis/EurekaClientMovieUnderstandingMeadataApplication.java">
+      <file leaf-file-name="MyHealthIndicator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-client-healthcheck/src/main/java/com/stargis/healthcheck/MyHealthIndicator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="23" column="32" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyRestController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/eureka-client-healthcheck/src/main/java/com/stargis/Controller/MyRestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="33" column="11" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="33" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-client-healthcheck/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-              <folding>
-                <element signature="e#540#541#0" expanded="true" />
-                <element signature="e#575#576#0" expanded="true" />
-              </folding>
+              <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -222,12 +244,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/eureka-client/src/main/java/com/stargis/eurekaclient/EurekaClientApplication.java" />
-        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-client/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/eureka-server-peer1/src/main/java/com/stargis/eurekaserverpeer1/EurekaServerPeer1Application.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-server-peer1/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-server-peers/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-server-peers/src/main/resources/application.yml" />
@@ -270,6 +286,15 @@
         <option value="$PROJECT_DIR$/eureka-client-movie-understanding-meadata/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/eureka-client-movie-understanding-meadata/src/main/java/com/stargis/EurekaClientMovieUnderstandingMeadataApplication.java" />
         <option value="$PROJECT_DIR$/eureka-client-movie-understanding-meadata/src/main/java/com/stargis/controller/MovieController.java" />
+        <option value="$PROJECT_DIR$/eureka-server-healthcheck/src/main/java/com/stargis/eurekaserverhealthcheck/EurekaServerHealthcheckApplication.java" />
+        <option value="$PROJECT_DIR$/eureka-server-healthcheck/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/eureka-client-healthcheck/src/main/java/com/stargis/eurekaclienthealthcheck/EurekaClientHealthcheckApplication.java" />
+        <option value="$PROJECT_DIR$/eureka-client-healthcheck/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-client-healthcheck/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/eureka-client-healthcheck/src/main/java/com/stargis/healthcheck/MyHealthIndicator.java" />
+        <option value="$PROJECT_DIR$/eureka-client-healthcheck/src/main/java/com/stargis/healthcheck/MyHealthCheckHandler.java" />
+        <option value="$PROJECT_DIR$/eureka-client-healthcheck/src/main/java/com/stargis/Controller/MyRestController.java" />
       </list>
     </option>
   </component>
@@ -335,6 +360,87 @@
               <item name="SpringCloudEureka01" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloudEureka01" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SpringCloudEureka01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudEureka01" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-client-healthcheck" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudEureka01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudEureka01" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-client-healthcheck" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudEureka01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudEureka01" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-client-healthcheck" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudEureka01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudEureka01" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-client-healthcheck" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudEureka01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudEureka01" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-client-healthcheck" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stargis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudEureka01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudEureka01" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-client-healthcheck" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stargis" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudEureka01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudEureka01" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-client-healthcheck" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stargis" type="462c0819:PsiDirectoryNode" />
+              <item name="healthcheck" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudEureka01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudEureka01" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudEureka01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudEureka01" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudEureka01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudEureka01" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudEureka01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudEureka01" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -372,11 +478,11 @@
       <recent name="com.stargis.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaJavaWorkspace\SpringCloudLearning\SpringCloudEureka01\eureka-client-healthcheck\src\main\resources" />
       <recent name="E:\IdeaJavaWorkspace\SpringCloudLearning\SpringCloudEureka01" />
       <recent name="E:\IdeaJavaWorkspace\SpringCloudLearning\SpringCloudEureka01\eureka-client-user-my-metadata\src\main\resources" />
       <recent name="E:\IdeaJavaWorkspace\SpringCloudLearning\SpringCloudEureka01\eureka-client-authenticating\src\main\resources" />
       <recent name="E:\IdeaJavaWorkspace\SpringCloudLearning\SpringCloudEureka01\eureka-server-authenticating\src\main\resources" />
-      <recent name="E:\IdeaJavaWorkspace\SpringCloudLearning\SpringCloudEureka01\client02-eureka\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -397,7 +503,7 @@
     </option>
     <option name="contentProportion" value="0.33508196" />
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaClientMovieUnderstandingMeadataApplication">
+  <component name="RunManager" selected="Spring Boot.EurekaClientHealthcheckApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -458,6 +564,16 @@
     <configuration name="EurekaClientAuthenticatingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-client-authenticating" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.stargis.eurekaclientauthenticating.EurekaClientAuthenticatingApplication" />
+    </configuration>
+    <configuration name="EurekaClientHealthcheckApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eureka-client-healthcheck" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stargis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.stargis.EurekaClientHealthcheckApplication" />
     </configuration>
     <configuration name="EurekaClientMovieUnderstandingMeadataApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="eureka-client-movie-understanding-meadata" />
@@ -553,9 +669,11 @@
       <item itemvalue="Spring Boot.EurekaClientUserMyMetadataApplication" />
       <item itemvalue="JUnit.EurekaClientUserMyMetadataApplicationTests.contextLoads" />
       <item itemvalue="Spring Boot.EurekaClientMovieUnderstandingMeadataApplication" />
+      <item itemvalue="Spring Boot.EurekaClientHealthcheckApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.EurekaClientHealthcheckApplication" />
         <item itemvalue="Spring Boot.EurekaClientMovieUnderstandingMeadataApplication" />
         <item itemvalue="Spring Boot.EurekaClientUserMyMetadataApplication" />
         <item itemvalue="JUnit.EurekaClientUserMyMetadataApplicationTests.contextLoads" />
@@ -584,7 +702,7 @@
       <workItem from="1523361570472" duration="7251000" />
       <workItem from="1523369428570" duration="1868000" />
       <workItem from="1523408216985" duration="3053000" />
-      <workItem from="1523411856498" duration="29568000" />
+      <workItem from="1523411856498" duration="33867000" />
     </task>
     <task id="LOCAL-00001" summary="idea">
       <created>1522808179593</created>
@@ -607,7 +725,28 @@
       <option name="project" value="LOCAL" />
       <updated>1523429718513</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2018年4月11日20:32:00">
+      <created>1523449931780</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1523449931781</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2018年4月11日20:32:00">
+      <created>1523453212957</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1523453212957</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2018年4月11日21:27:12">
+      <created>1523453236992</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1523453236993</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -643,7 +782,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73512000" />
+    <option name="totallyTimeSpent" value="77811000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -656,6 +795,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="13" weight="0.328877" />
@@ -663,15 +803,15 @@
       <window_info anchor="right" id="Palette&#9;" order="0" />
       <window_info anchor="bottom" id="Java Enterprise" order="1" weight="0.328877" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50385606" side_tool="true" weight="0.42914438" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49614397" weight="0.39973262" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.49614397" visible="true" weight="0.39973262" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32969153" />
       <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.328877" />
       <window_info anchor="bottom" x="0" y="308" width="1600" height="254" id="Run" order="9" sideWeight="0.4993573" weight="0.6016043" />
       <window_info anchor="bottom" id="Spring" order="2" weight="0.328877" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.328877" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.328877" />
       <window_info id="Designer" order="4" />
-      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.49465242" visible="true" weight="0.27506426" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.49465242" visible="true" weight="0.27506426" />
       <window_info anchor="right" id="Bean Validation" order="2" weight="0.32969153" />
       <window_info id="Web" order="0" sideWeight="0.5006676" side_tool="true" weight="0.18894601" />
       <window_info anchor="right" id="Database" order="1" weight="0.32969153" />
@@ -730,7 +870,9 @@
     <MESSAGE value="2018年4月10日20:27:31" />
     <MESSAGE value="2018年4月11日09:14:50" />
     <MESSAGE value="2018年4月11日14:55:04" />
-    <option name="LAST_COMMIT_MESSAGE" value="2018年4月11日14:55:04" />
+    <MESSAGE value="2018年4月11日20:32:00" />
+    <MESSAGE value="2018年4月11日21:27:12" />
+    <option name="LAST_COMMIT_MESSAGE" value="2018年4月11日21:27:12" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -742,63 +884,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="38" column="21" selection-start-line="33" selection-start-column="8" selection-end-line="38" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/peers-eureka-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="24" column="41" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/peers-eureka-server/target/classes/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/peers-eureka-server/src/main/java/com/stargis/peerseurekaserver/PeersEurekaServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client01-eureka/src/main/java/com/stargis/client01eureka/Client01EurekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client02-eureka/src/main/java/com/stargis/client02eureka/Client02EurekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client02-eureka/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client01-eureka/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server-authenticating/src/test/java/com/stargis/eurekaserverauthenticating/EurekaServerAuthenticatingApplicationTests.java" />
     <entry file="file://$PROJECT_DIR$/eureka-server-authenticating/src/main/java/com/stargis/eurekaserverauthenticating/EurekaServerAuthenticatingApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -820,13 +905,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="9" selection-end-column="75" />
         </state>
       </provider>
     </entry>
@@ -1065,17 +1143,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client-user-my-metadata/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="50" column="21" selection-start-line="47" selection-start-column="7" selection-end-line="50" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-client-user-my-metadata/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
-          <caret line="33" column="23" lean-forward="true" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1096,7 +1167,7 @@
     <entry file="file://$PROJECT_DIR$/eureka-client-movie-understanding-meadata/src/main/java/com/stargis/EurekaClientMovieUnderstandingMeadataApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
           <folding>
             <element signature="e#540#541#0" expanded="true" />
             <element signature="e#575#576#0" expanded="true" />
@@ -1104,10 +1175,96 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-healthcheck/src/main/java/com/stargis/eurekaserverhealthcheck/EurekaServerHealthcheckApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-user-my-metadata/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="50" column="21" selection-start-line="47" selection-start-column="7" selection-end-line="50" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-healthcheck/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-healthcheck/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-healthcheck/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-healthcheck/src/main/java/com/stargis/EurekaClientHealthcheckApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-client-movie-understanding-meadata/src/main/java/com/stargis/controller/MovieController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="42" column="80" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="80" />
+        <state relative-caret-position="308">
+          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-healthcheck/src/main/java/com/stargis/healthcheck/MyHealthIndicator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-healthcheck/src/main/java/com/stargis/healthcheck/MyHealthCheckHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-83">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client-healthcheck/src/main/java/com/stargis/Controller/MyRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="33" column="11" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="33" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -5,12 +5,14 @@
     <file url="file://$PROJECT_DIR$/client02-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-client-authenticating" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-client-healthcheck" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-client-movie-understanding-meadata" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-client-my-metadata" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-client-user-my-metadata" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server-authenticating" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server-authenticating-m9" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server-healthcheck" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/peers-eureka-server" charset="UTF-8" />
   </component>
 </project>
