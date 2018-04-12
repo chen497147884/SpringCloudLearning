@@ -1,4 +1,4 @@
-package com.stargis.eurekaserverauthenticatingm9;
+package com.stargis;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.stargis.eurekaserverauthenticatingm9;
+package com.stargis;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
