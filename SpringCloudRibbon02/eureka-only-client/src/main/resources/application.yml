@@ -1,0 +1,8 @@
+server:
+  port: 8111
+info:
+  app:
+    name:  helloworld
+logging:
+  level:
+    root: INFO

@@ -1,0 +1,10 @@
+server:
+  port: 8765
+spring:
+  application:
+    name: service-only-ribbon
+helloworld:
+  ribbon:
+    listOfServers: localhost:8111,localhost:8112
+#    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+
