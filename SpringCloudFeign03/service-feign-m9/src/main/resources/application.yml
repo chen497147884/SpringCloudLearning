@@ -15,3 +15,6 @@ feign:
             min-request-size: 1024
         response:
             enabled: false
+logging:
+  level:
+    com.stargis.service.SchedualServiceHi: BASIC #DEBUG BASIC

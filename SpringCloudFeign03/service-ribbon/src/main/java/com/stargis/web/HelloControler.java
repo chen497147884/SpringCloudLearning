@@ -17,7 +17,7 @@ public class HelloControler {
     @Autowired
     HelloService helloService;
 
-    @RequestMapping(value = "/hi")
+    @RequestMapping(value = "/sayhi")
     public String hi(@RequestParam String name){
         System.out.println("This is ribbon-service that it is name:" + name);
         return helloService.hiService(name);

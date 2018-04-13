@@ -3,6 +3,7 @@ package com.stargis.config;/**
  * 2018-04-13 17:03
  */
 
+import feign.Logger;
 import feign.Retryer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -21,5 +22,9 @@ public class FeignConfig {
     @Bean
     public Retryer feignRetryer() {
         return new Retryer.Default(100, TimeUnit.SECONDS.toMillis(1), 5);
+    }
+    @Bean
+    Logger.Level feigenLoggerLevel(){
+        return Logger.Level.FULL;
     }
 }
