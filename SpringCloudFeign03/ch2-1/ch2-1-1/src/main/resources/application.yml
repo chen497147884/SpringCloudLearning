@@ -1,0 +1,18 @@
+server:
+  port: 8010
+spring:
+  application:
+    name: ch2-1-1
+
+logging:
+     level:
+       cn.springcloud.book.feign.service.HelloFeignService: debug
+
+#feign:
+#    compression:
+#        request:
+#            enabled: true
+#            mime-types: text/xml,application/xml,application/json
+#            min-request-size: 2048
+#        response:
+#            enabled: true
