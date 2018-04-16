@@ -1,0 +1,18 @@
+server:
+  port: 8766
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+spring:
+  application:
+    name: service-hystrix-dashboard-01
+#hystrix:
+#  config:
+#    stream:
+#      maxConcurrentConnections: 50
+#service-hi:
+#  ribben:
+#    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
