@@ -2,15 +2,78 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fe1ff5f-eda4-4fb2-9584-a3f6ed062b27" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/SpringCloudHystrix04.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/eureka-client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/eureka-client/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/eureka-client/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/eureka-client/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/eureka-client/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/eureka-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/eureka-client/src/main/java/com/stargis/eurekaclient/EurekaClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/eureka-client/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/eureka-client/src/test/java/com/stargis/eurekaclient/EurekaClientApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/eureka-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/eureka-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/eureka-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/eureka-server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/eureka-server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/eureka-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/eureka-server/src/main/java/com/stargis/eurekaserver/EurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/eureka-server/src/test/java/com/stargis/eurekaserver/EurekaServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-01/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-01/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-01/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-01/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-01/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-01/src/main/java/com/stargis/Hystrix01Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-01/src/main/java/com/stargis/service/HelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-01/src/main/java/com/stargis/web/HelloControler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-01/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-01/src/test/java/com/stargis/Hystrix01ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-02/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-02/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-02/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-02/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-02/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-02/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-02/src/main/java/com/stargis/Hystrix02Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-02/src/main/java/com/stargis/hystric/SchedualServiceHiHystric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-02/src/main/java/com/stargis/service/SchedualServiceHi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-02/src/main/java/com/stargis/web/HiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-02/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-02/src/test/java/com/stargis/Hystrix02ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-dashboard-01/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-dashboard-01/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-dashboard-01/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-dashboard-01/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-dashboard-01/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-dashboard-01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-dashboard-01/src/main/java/com/stargis/HystrixDashboard01Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-dashboard-01/src/main/java/com/stargis/service/HelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-dashboard-01/src/main/java/com/stargis/web/HelloControler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-dashboard-01/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-dashboard-01/src/test/java/com/stargis/HystrixDashboard01ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-dashboard-02/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-dashboard-02/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-dashboard-02/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-dashboard-02/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-dashboard-02/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-dashboard-02/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-dashboard-02/src/main/java/com/stargis/HystrixDashboard02Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-dashboard-02/src/main/java/com/stargis/hystrix/SchedualServiceHiHystric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-dashboard-02/src/main/java/com/stargis/service/SchedualServiceHi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-dashboard-02/src/main/java/com/stargis/web/HiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-dashboard-02/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/hystrix-dashboard-02/src/test/java/com/stargis/HystrixDashboard02ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringCloudHystrix04/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ch2-1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2-1/ch2-1-1/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ch2-1/ch2-1-1/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2-1/ch2-1-1/target/classes/cn/springcloud/book/feign/service/HelloFeignService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ch2-1/ch2-1-1/target/classes/cn/springcloud/book/feign/service/HelloFeignService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-feign-m9/src/main/java/com/stargis/config/FeignConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-feign-m9/src/main/java/com/stargis/config/FeignConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-feign-m9/src/main/java/com/stargis/service/SchedualServiceHi.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-feign-m9/src/main/java/com/stargis/service/SchedualServiceHi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-feign-m9/src/main/java/com/stargis/web/HiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-feign-m9/src/main/java/com/stargis/web/HiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-feign-m9/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-feign-m9/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-ribbon/src/main/java/com/stargis/web/HelloControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-ribbon/src/main/java/com/stargis/web/HelloControler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-ribbon/src/main/java/com/stargis/ServiceRibbonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-ribbon/src/main/java/com/stargis/ServiceRibbonApplication.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,17 +91,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-feign-m9/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HiController.java" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="HiController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-feign-m9/src/main/java/com/stargis/web/HiController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
@@ -47,27 +101,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServiceFeignM9Application.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-feign-m9/src/main/java/com/stargis/ServiceFeignM9Application.java">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-              <folding>
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#327#328#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="192">
+              <caret line="8" selection-start-line="8" selection-end-line="13" selection-end-column="68" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SchedualServiceHi.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-feign-m9/src/main/java/com/stargis/service/SchedualServiceHi.java">
+      <file leaf-file-name="ServiceFeignM9Application.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service-feign-m9/src/main/java/com/stargis/ServiceFeignM9Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="144">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -75,8 +122,26 @@
       <file leaf-file-name="HelloControler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/stargis/web/HelloControler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
+            <state relative-caret-position="360">
               <caret line="19" column="35" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/stargis/service/HelloService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-feign/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="8" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -84,38 +149,35 @@
       <file leaf-file-name="ServiceRibbonApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/stargis/ServiceRibbonApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="216">
+              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RibbonConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/stargis/config/RibbonConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/stargis/test/TestConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-client/pom.xml">
+        <entry file="file://$PROJECT_DIR$/service-ribbon/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="25" column="17" selection-start-line="3" selection-start-column="4" selection-end-line="25" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-client/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="FeignConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-feign-m9/src/main/java/com/stargis/config/FeignConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#343#344#0" expanded="true" />
-                <element signature="e#414#415#0" expanded="true" />
-                <element signature="e#595#596#0" expanded="true" />
-                <element signature="e#623#624#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="840">
+              <caret line="35" column="21" selection-start-line="32" selection-start-column="8" selection-end-line="35" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -152,6 +214,7 @@
         <option value="$PROJECT_DIR$/service-ribbon/src/main/java/com/stargis/web/HelloControler.java" />
         <option value="$PROJECT_DIR$/service-feign-m9/src/main/java/com/stargis/service/SchedualServiceHi2.java" />
         <option value="$PROJECT_DIR$/service-feign-m9/src/main/java/com/stargis/web/HiController.java" />
+        <option value="$PROJECT_DIR$/service-ribbon/src/main/java/com/stargis/ServiceRibbonApplication.java" />
       </list>
     </option>
   </component>
@@ -165,10 +228,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1364" />
-    <option name="height" value="736" />
+    <option name="x" value="52" />
+    <option name="y" value="23" />
+    <option name="width" value="1228" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -176,7 +239,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,126 +249,14 @@
             <path>
               <item name="SpringCloudFeign03" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloudFeign03" type="462c0819:PsiDirectoryNode" />
-              <item name="service-feign-m9" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudFeign03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudFeign03" type="462c0819:PsiDirectoryNode" />
-              <item name="service-feign-m9" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudFeign03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudFeign03" type="462c0819:PsiDirectoryNode" />
-              <item name="service-feign-m9" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudFeign03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudFeign03" type="462c0819:PsiDirectoryNode" />
-              <item name="service-feign-m9" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudFeign03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudFeign03" type="462c0819:PsiDirectoryNode" />
-              <item name="service-feign-m9" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="stargis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudFeign03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudFeign03" type="462c0819:PsiDirectoryNode" />
-              <item name="service-feign-m9" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="stargis" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudFeign03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudFeign03" type="462c0819:PsiDirectoryNode" />
-              <item name="service-feign-m9" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="stargis" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudFeign03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudFeign03" type="462c0819:PsiDirectoryNode" />
-              <item name="service-feign-m9" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="stargis" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudFeign03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudFeign03" type="462c0819:PsiDirectoryNode" />
-              <item name="service-feign-m9" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudFeign03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudFeign03" type="462c0819:PsiDirectoryNode" />
               <item name="service-ribbon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudFeign03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudFeign03" type="462c0819:PsiDirectoryNode" />
-              <item name="service-ribbon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudFeign03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudFeign03" type="462c0819:PsiDirectoryNode" />
-              <item name="service-ribbon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudFeign03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudFeign03" type="462c0819:PsiDirectoryNode" />
-              <item name="service-ribbon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudFeign03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudFeign03" type="462c0819:PsiDirectoryNode" />
-              <item name="service-ribbon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="stargis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudFeign03" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudFeign03" type="462c0819:PsiDirectoryNode" />
-              <item name="service-ribbon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="stargis" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -352,6 +302,7 @@
         </RuleState>
       </list>
     </option>
+    <option name="contentProportion" value="0.28983608" />
   </component>
   <component name="RunManager" selected="Spring Boot.ServiceFeignM9Application">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -468,8 +419,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ServiceFeignM9Application" />
         <item itemvalue="Spring Boot.ServiceRibbonApplication" />
+        <item itemvalue="Spring Boot.ServiceFeignM9Application" />
         <item itemvalue="Spring Boot.ServiceFeignApplication" />
       </list>
     </recent_temporary>
@@ -484,7 +435,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523606780075</updated>
-      <workItem from="1523606784612" duration="12634000" />
+      <workItem from="1523606784612" duration="12684000" />
+      <workItem from="1523771230959" duration="404000" />
+      <workItem from="1523771934944" duration="3943000" />
+      <workItem from="1523839194674" duration="206000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1523617738638</created>
@@ -493,15 +447,21 @@
       <option name="project" value="LOCAL" />
       <updated>1523617738638</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="更新">
+      <created>1523621339483</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1523621339483</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12634000" />
+    <option name="totallyTimeSpent" value="17237000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="13" />
@@ -509,27 +469,27 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="1" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50064266" side_tool="true" weight="0.328877" />
-      <window_info anchor="bottom" id="Run Dashboard" sideWeight="0.4993573" visible="true" weight="0.328877" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.4993573" visible="true" weight="0.328877" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.32901555" />
       <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.32901555" />
       <window_info anchor="bottom" id="Spring" order="2" />
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info id="Designer" order="1" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.39717224" />
+      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.30269924" />
       <window_info anchor="right" id="Bean Validation" order="2" />
       <window_info id="Web" order="0" side_tool="true" />
       <window_info anchor="right" id="Database" order="1" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
       <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="right" id="Commander" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="8" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="7" />
     </layout>
@@ -545,6 +505,180 @@
     <option name="LAST_COMMIT_MESSAGE" value="更新" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/stargis/web/HelloControler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/stargis/service/HelloService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-feign/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/stargis/ServiceRibbonApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/stargis/config/RibbonConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/stargis/test/TestConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-ribbon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="35" column="21" selection-start-line="32" selection-start-column="8" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-feign-m9/src/main/java/com/stargis/ServiceFeignM9Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-feign-m9/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-feign-m9/src/main/java/com/stargis/ServiceFeignM9Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-feign-m9/src/main/java/com/stargis/service/SchedualServiceHi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/stargis/web/HelloControler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/stargis/ServiceRibbonApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="25" column="17" selection-start-line="3" selection-start-column="4" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-feign-m9/src/main/java/com/stargis/config/FeignConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-feign-m9/src/main/java/com/stargis/web/HiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-feign-m9/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-feign-m9/src/main/java/com/stargis/ServiceFeignM9Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-feign-m9/src/main/java/com/stargis/service/SchedualServiceHi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/stargis/web/HelloControler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/stargis/ServiceRibbonApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="25" column="17" selection-start-line="3" selection-start-column="4" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-feign-m9/src/main/java/com/stargis/config/FeignConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-feign-m9/src/main/java/com/stargis/web/HiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -556,20 +690,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serivce-feign/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-360">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/serivce-feign/pom.xml" />
     <entry file="file://$PROJECT_DIR$/service-feign/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -595,16 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-feign/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -629,7 +743,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-client/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
+        <state relative-caret-position="600">
           <caret line="25" column="17" selection-start-line="3" selection-start-column="4" selection-end-line="25" selection-end-column="17" />
         </state>
       </provider>
@@ -638,30 +752,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/service-feign-m9/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-feign-m9/src/main/java/com/stargis/ServiceFeignM9Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -674,49 +771,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service-feign-m9/src/main/java/com/stargis/config/FeignConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="480">
           <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/stargis/ServiceRibbonApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/stargis/web/HelloControler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-feign-m9/src/main/java/com/stargis/service/SchedualServiceHi2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="22" column="64" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/service-feign-m9/src/main/java/com/stargis/service/SchedualServiceHi2.java" />
     <entry file="file://$PROJECT_DIR$/service-feign-m9/src/main/java/com/stargis/service/SchedualServiceHi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
+        <state relative-caret-position="336">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -724,6 +791,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/stargis/config/RibbonConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-ribbon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="35" column="21" selection-start-line="32" selection-start-column="8" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" selection-start-line="8" selection-end-line="13" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/stargis/test/TestConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/stargis/web/HelloControler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/stargis/service/HelloService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-feign/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/stargis/ServiceRibbonApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-feign-m9/src/main/java/com/stargis/ServiceFeignM9Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>
